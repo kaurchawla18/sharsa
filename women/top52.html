@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <meta charset="UTF-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <link rel="stylesheet" href="./top2.css">
+          <title>Sharsa</title>
+</head>
+<body>
+      <header>
+                <nav>
+                          <a href="#">sharsa</a>
+                </nav>
+      </header>  
+      
+      <section class="sec1">
+                   <div class="sec1p1">
+                              <div class="sec1inner1">
+                                  <a href="#"> <img id="highlighter" src="./images/women tops/52.webp" alt="tops"></a> 
+                                        <br><br>
+                                        <div class="sec1ultrainner">
+                                                  <a href="#"><img src="./images/women tops/52.webp" alt="tops"></a>
+                                                  <a href="#"><img onclick="interchange()" src="./images/women tops/52.1.webp" alt="tops"></a>
+                                                  <a href="#"><img src="./images/women tops/52.2.webp" alt="tops"></a>
+                                                  <a href="#"><img src="./images/women tops/52.3.webp" alt="tops"></a>
+                                        
+                                        </div>
+                              </div>
+                              <div class="sec1inner2">
+                                        <h1>Top</h1>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quisquam magnam, cupiditate a nihil error soluta in qui reiciendis! Reiciendis beatae perferendis praesentium inventore suscipit animi hic voluptatibus magnam quos!</p>
+                              </div>
+                   </div>
+      </section>
+
+
+      <!---------------------------- Javascript ----------------------------------->
+
+      <script>
+          var img_id = document.getElementById("highlighter");
+          function interchange(){
+                if (img_id.src.matches("./images/women tops/2.webp")){
+                      img_id.src="./images/women tops/2.1.webp";
+                }
+          }
+      </script>
+</body>
+</html>

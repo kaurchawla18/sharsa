@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+body{
+    box-sizing: border-box;
+    background-color: #f6f4fa;
+}
+/******************************** Navbar *************************/
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 1rem;
+}
+.secondnav ul{
+    display: flex;
+}
+.secondnav ul li {
+    list-style: none;
+}
+.secondnav ul li a{
+    text-decoration: none;
+    color: rgb(100, 134, 100);
+    font-size: 23px;
+    padding: 5px 25px;
+    font-family: 'Koh Santepheap', cursive;
+    font-weight: 800;
+    position: relative;
+}
+.secondnav ul li #home::after{
+    content: '';
+    display: block;
+    height: 5px;
+    width: 60px;
+    background-color: firebrick;
+    position:absolute;
+    top: 33px;
+    left: 25px;
+}
+.secondnav ul li a:hover{
+    background-color: firebrick;
+    color: white;
+    border-radius: 20px;
+}
+.thirdnav button{
+    padding: 10px 25px;
+    border-radius: 20px;
+    font-size: 18px;
+    background-color: firebrick;
+    color: white;
+    border: none;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+/*************************************** Main *******************************/
+
+/**************************************** Section 1 *****************************/
+.sec1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec1 #first,#second,#third{
+    width: 80vw;
+    height: 85vh;
+    object-fit: cover;
+}
+.sec1 #second,#third{
+    display: none;
+}
+
+/*************************************** Section 2 ********************************/
+.heading_size{
+    text-decoration: none;
+    color: rgb(100, 134, 100);
+    font-size: 30px;
+    font-weight: 800;
+    font-family: 'Birthstone', cursive;
+}
+#women{
+    margin-left: 1rem;
+}
+.image_space{
+    display: flex;
+    justify-content: space-evenly;
+}
+.img_size{
+    height: 400px;
+    width: 300px;
+    object-fit: cover;
+}
+
+/*************************************** Section 3 ********************************/
+#men{
+    margin-left: 1rem;
+}
+
+/*************************************** Section 4********************************/
+#kids{
+    margin-left: 1rem;
+}
+#kid3{
+    width:650px ;
+}
+
+/**************************** Section 6 ************************************/
+.parallax{
+    background-image: url(./images/parallax.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    object-fit: cover;
+    height: 600px;
+    width: 100%;
+}
+.parallax h2{
+    color: #fcde67;
+    position: relative;
+    top: 30px;
+    text-align: right;
+    right: 50px;
+    font-family:  'Birthstone', cursive;
+    font-size: 3em;
+    text-transform: uppercase;
+}
+/************************************* Section 7 ***********************************/
+.sec7{
+    display: flex;
+    justify-content: space-evenly;
+}
+.sec7 .sec7p1{
+    background-color:#2b6777;
+    height: 70vh;
+    width: 330px;
+    cursor: pointer;
+}
+.sec7p1 img{
+    width: 330px;
+    height: 35vh;
+    object-fit: cover;
+}
+.sec7p1 p{
+    font-size: 1.3em;
+    font-family:'Birthstone', cursive;
+    color: #f2f2f2;
+    padding: 0.5em 1em;
+}
+/************************************ Footer ***************************************/
+.secfooter{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(44, 43, 43);
+    color: white;
+    height: 40vh;
+}
+.footerp1 h4{
+    padding-top: 2em;
+    font-size: 20px;
+    font-family:'Birthstone', cursive;
+    text-transform: uppercase;
+}
+.footerp1 ul{
+    list-style: none;
+}
+.footerp1 a{
+    text-decoration: none;
+    color: #f2f2f2;
+    font-size: 20px;
+}
+.footerp1 a:hover{
+    color: rgb(151, 109, 109);
+}
+.footerp1 a img{
+    margin-left: 1rem;
+    height: 32px;
+    width: 32px;
+}
+#twitter{
+    border-radius: 5px;
+}
+.lowerpart{
+    padding: 1em;
+    background-color: rgb(83, 80, 80);
+    text-align: center;
+}
+.lowerpart a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.lowerpart a:hover{
+    text-decoration: underline;
+}
+/************************************ Bottom _to_Top Arrow ******************************/
+.toparrow a{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+.toparrow a img{
+    background-color: #ff6864;
+    padding: 0.5em;
+    border-radius: 50%;
+}
