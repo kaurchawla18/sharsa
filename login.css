@@ -1,0 +1,110 @@
+*{
+          margin: 0;
+          padding: 0;
+          box-sizing: inherit;
+}
+body{
+          box-sizing: border-box;
+          background-color: #f6f4fa;
+}
+/******************************** Navbar *************************/
+.navbar{
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          margin-top: 1rem;
+}
+.hidden_nav a{
+      display: none;
+}
+.secondnav ul{
+          display: flex;
+}
+.secondnav ul li {
+          list-style: none;
+}
+.secondnav ul li a{
+          text-decoration: none;
+          color: rgb(100, 134, 100);
+          font-size: 23px;
+          padding: 5px 25px;
+          font-family: 'Koh Santepheap', cursive;
+          font-weight: 800;
+          position: relative;
+}
+#extra_login{
+      display: none;
+}
+/* .secondnav ul li #home::after{
+          content: '';
+          display: block;
+          height: 5px;
+          width: 60px;
+          background-color: firebrick;
+          position:absolute;
+          top: 33px;
+          left: 25px;
+} */
+.secondnav ul li a:hover{
+          background-color: firebrick;
+          color: white;
+          border-radius: 20px;
+}
+.thirdnav button{
+          padding: 10px 25px;
+          border-radius: 20px;
+          font-size: 18px;
+          background-color: firebrick;
+          color: white;
+          border: none;
+          margin-right: 1rem;
+          cursor: pointer;
+}
+/*************************************** Form ***********************************/
+.form_div{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 90vh;
+}
+.form_box{
+          height: 75vh;
+          width: 35%;
+          border: 2px solid black;
+}
+.form_group{
+          display: flex;
+          justify-content: space-around;
+}
+.form_group a{
+          margin-top: 1rem;
+          text-decoration: none;
+          color: red;
+          font-size: 2em;
+          font-family: monospace;
+          padding: 0.3em 1em;
+}
+#login{
+          background-color: salmon;
+          border-radius: 30px;
+}
+#login_part,#register_part{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+}
+#register_part{
+      display: none;
+}
+/* #login_input{
+          border: 2px solid black;
+} */
+#login_input input{
+      /* display: block; */
+      width: 100%;
+      padding: 10px 0;
+      border-top: 0;
+      border-left: 0;
+      border-right: 0;
+      border-bottom: 2px solid #999;
+}
