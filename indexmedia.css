@@ -30,7 +30,7 @@
           }
 }
 @media screen and (max-width:500px) {
-          .secondnav{
+          /* .secondnav{
                     display: block;
                     visibility: visible;
           }
@@ -46,7 +46,8 @@
                     height: 50vh;
                     line-height: 40px;
                     background-color: firebrick;
-          }
+                    z-index: 10;
+          } */
           #extra_login{
                     display: block;
           }
@@ -56,27 +57,80 @@
           .secondnav ul li a:hover{
                     color: #fcde67;
           }
-          .img_size{
-                    width: 100px;
-          }
+          
          
 }
-/*************************************** Section 2 *********************************/
+/*************************************** Section 2 and 3*********************************/
 @media screen and (max-width:1230px) {
-          .sec2p1 #girl4{
+          .sec2p1 #girl4,#boy4{
                     display: none;
-          }
+           }
+     
 }
 @media screen and (max-width:922px){
-       .sec2p1 #girl3{
+       .sec2p1 #girl3,#boy3{
                  display: none;
        }   
 }
-@media screen and (max-width:620px){
+@media screen and (min-width:1905px) {
+       .img_size{
+              width: 400px;
+              height: 500px;
+       }
+}
+@media screen and (max-width:639px){
           .img_size{
-                    width: 280px;
+                    width: 200px;
           }     
 }
-@media screen and (max-width:500px){
+
+@media screen and (max-width:608px){
+       .img_size{
+              width: 300px;
+       }   
+       .image_space{
+                 display: flex;
+                 flex-direction: column;
+                 justify-content: center;
+                 align-items: center;
+       }
+       #centerkid{
+              display: block;
+              visibility: visible;
+       }
           
 }
+
+/*********************************************** Kids Section ************************************/
+@media screen and (max-width:1287px) {
+       #kid3, #centerkid{
+              width: 550px;
+       }
+}
+@media screen and (max-width:1179px) {
+       #kid3, #centerkid{
+              width: 450px;
+       }
+}
+@media screen and (max-width:1087px) {
+       #kid3,#centerkid{
+              width: 300px;
+       }
+}
+@media screen and (max-width:927px) {
+       #kid3,#centerkid{
+             display: none;
+       }
+       .img_size{
+              width: 350px;
+       }
+
+}
+/* @media screen and (max-width:688px) {
+      
+       .img_size{
+              width: 200px;
+       }
+} */
+
+
