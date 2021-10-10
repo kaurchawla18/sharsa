@@ -54,6 +54,7 @@ body{
           margin-right: 1rem;
           cursor: pointer;
       }
+/******************************* Section 1 ********************************/
 .sec1 .sec1p1{
           display: flex;
           justify-content: center; 
@@ -66,4 +67,50 @@ body{
           border-radius: 20px;
           margin: 0 1rem;
          
+}
+/************************************ Footer ***************************************/
+.secfooter{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(44, 43, 43);
+    color: white;
+    height: 40vh;
+}
+.footerp1 h4{
+    padding-top: 2em;
+    font-size: 20px;
+    font-family:'Birthstone', cursive;
+    text-transform: uppercase;
+}
+.footerp1 ul{
+    list-style: none;
+}
+.footerp1 a{
+    text-decoration: none;
+    color: #f2f2f2;
+    font-size: 20px;
+}
+.footerp1 a:hover{
+    color: rgb(151, 109, 109);
+}
+.footerp1 a img{
+    margin-left: 1rem;
+    height: 32px;
+    width: 32px;
+}
+#twitter{
+    border-radius: 5px;
+}
+.lowerpart{
+    padding: 1em;
+    background-color: rgb(83, 80, 80);
+    text-align: center;
+}
+.lowerpart a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.lowerpart a:hover{
+    text-decoration: underline;
 }

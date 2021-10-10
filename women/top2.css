@@ -32,11 +32,11 @@ body{
           font-weight: 800;
           position: relative;
       }
-      .secondnav ul li #home::after{
+      .secondnav ul li #women::after{
           content: '';
           display: block;
           height: 5px;
-          width: 60px;
+          width: 83px;
           background-color: firebrick;
           position:absolute;
           top: 33px;
@@ -90,6 +90,7 @@ body{
           object-fit: cover;
           border-radius: 10px;
 }
+/********************************* Section 1 inner 2 **************************/
 .sec1inner2{
           width: 500px;
 }

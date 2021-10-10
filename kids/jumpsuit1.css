@@ -6,6 +6,54 @@
 body{
           box-sizing: border-box;
 }
+/******************************** Navbar *************************/
+.navbar{
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          margin-top: 1rem;
+}
+.secondnav ul{
+          display: flex;
+}
+.secondnav ul li {
+          list-style: none;
+}
+.secondnav ul li a{
+          text-decoration: none;
+          color: rgb(100, 134, 100);
+          font-size: 23px;
+          padding: 5px 25px;
+          font-family: 'Koh Santepheap', cursive;
+          font-weight: 800;
+          position: relative;
+}
+.secondnav ul li #kids::after{
+          content: '';
+          display: block;
+          height: 5px;
+          width: 48px;
+          background-color: firebrick;
+          position:absolute;
+          top: 33px;
+          left: 25px;
+}
+.secondnav ul li a:hover{
+          /* border: 2px solid firebrick; */
+          background-color: firebrick;
+          color: white;
+          border-radius: 20px;
+}
+.thirdnav button{
+          padding: 10px 25px;
+          border-radius: 20px;
+          font-size: 18px;
+          background-color: firebrick;
+          color: white;
+          border: none;
+          margin-right: 1rem;
+          cursor: pointer;
+}
 .sec1p1{
           display: flex;
           justify-content: space-evenly;
@@ -31,6 +79,106 @@ body{
           object-fit: cover;
           border-radius: 10px;
 }
+/*********************************** Section 1 inner 2 **********************************/
 .sec1inner2{
-          width: 500px;
+    width: 500px;
 }
+.sec1inner2 h2,h3{
+    font-family: 'Birthstone', cursive;
+}
+.sec1inner2 p{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+.sec1inner2 p span{
+    padding: 0.5em 0.7em;
+    background-color:#2b6777;
+    color: #ffffff;
+    cursor: pointer;
+}
+.sec1inner2 p span:active{
+    background-color: #52ab98;
+    color:#f2f2f2;
+}
+.sec1inner2 ul li{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: disc;
+}
+.sec1inner2 .default_btn{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    display: inline-block;
+    text-align: center;
+    background-color: cornflowerblue;
+    color: cornsilk;
+    padding: 10px 20px;
+    position: relative;
+    line-height: 30px;
+    transition: all 0.3s ease-out;
+    transform-origin: 50% 0;
+    transform-style: preserve-3d;
+}
+.sec1inner2 .default_btn::before{
+    content: attr(btn-hover);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: cyan;
+    color: darkseagreen;
+    padding: 10px 17px;
+    line-height: 30px;
+    transition: all 0.3s ease-out;
+    transform: rotateX(-90deg);
+    transform-origin: 50% 0;
+}
+.sec1inner2 .default_btn:hover{
+    transform: rotateX(90deg) translateY(-10px);
+}
+/************************************ Footer ***************************************/
+.secfooter{
+          display: flex;
+          justify-content: space-evenly;
+          background-color: rgb(44, 43, 43);
+          color: white;
+          height: 40vh;
+      }
+      .footerp1 h4{
+          padding-top: 2em;
+          font-size: 20px;
+          font-family:'Birthstone', cursive;
+          text-transform: uppercase;
+      }
+      .footerp1 ul{
+          list-style: none;
+      }
+      .footerp1 a{
+          text-decoration: none;
+          color: #f2f2f2;
+          font-size: 20px;
+      }
+      .footerp1 a:hover{
+          color: rgb(151, 109, 109);
+      }
+      .footerp1 a img{
+          margin-left: 1rem;
+          height: 32px;
+          width: 32px;
+      }
+      #twitter{
+          border-radius: 5px;
+      }
+      .lowerpart{
+          padding: 1em;
+          background-color: rgb(83, 80, 80);
+          text-align: center;
+      }
+      .lowerpart a{
+          text-decoration: none;
+          color: white;
+          font-size: 20px;
+      }
+      .lowerpart a:hover{
+          text-decoration: underline;
+      }
